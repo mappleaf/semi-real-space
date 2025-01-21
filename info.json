@@ -6,7 +6,7 @@
     "description": "Combined into one separate mod all the personal fixes, so I don't need to handle all the clutter again and again",
     "homepage": "https://github.com/mappleaf/semi-real-space",
     "dependencies": [
-        "planetslib >= 1.1.27",
+        "PlanetsLib >= 1.1.27",
         "tenebris >= 0.2.1",
         "slp-dyson-sphere-reworked >= 1.0.2",
         "real-starry-universe >= 1.1.14",
