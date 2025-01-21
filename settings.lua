@@ -1,7 +1,6 @@
 data:extend{
     {
         name = "global-modifier",
-        localised_name = {"Global length modifier", {"mod-setting-name.global-modifier"}},
         setting_type = "startup",
         type = "double-setting",
         order = "a",
