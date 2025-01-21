@@ -1,0 +1,9 @@
+data.raw["space-connection"]["nauvis-vulcanus"]["length"] = 13299
+data.raw["space-connection"]["nauvis-gleba"]["length"] = 12409
+data.raw["space-connection"]["nauvis-fulgora"]["length"] = 17274
+data.raw["space-connection"]["vulcanus-gleba"]["length"] = 33314
+data.raw["space-connection"]["gleba-fulgora"]["length"] = 11070
+data.raw["space-connection"]["gleba-aquilo"]["length"] = 27015
+data.raw["space-connection"]["fulgora-aquilo"]["length"] = 24937
+data.raw["space-connection"]["aquilo-solar-system-edge"]["length"] = 369145
+data.raw["space-connection"]["solar-system-edge-shattered-planet"]["length"] = 1983914
