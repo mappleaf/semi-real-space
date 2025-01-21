@@ -1,24 +1,18 @@
 local asteroid_util = require("__space-age__.prototypes.planet.asteroid-spawn-definitions")
 
-local vulcanusmaraxsis = data.raw["space-connection"]["vulcanus-maraxsis"]
-local fulgoramaraxsis = data.raw["space-connection"]["fulgora-maraxsis"]
+local ids_to_remove = {}
 
 
-if vulcanusmaraxsis then
-    data.raw["space-connection"]["vulcanus-maraxsis"] = nil
+local counter = 1
+for _, v in pairs(data.raw["space-connection"]) do
+    if v.name == "vulcanus-maraxsis" then
+        ids_to_remove:extend(counter)
+    elseif v.name == "fulgora-maraxsis" then
+        ids_to_remove:extend(counter)
+    end
+    counter = counter + 1
 end
 
-if fulgoramaraxsis then
-    data.raw["space-connection"]["fulgora-maraxsis"] = nil
+for _, v in pairs(ids_to_remove) do
+    table.remove(data.raw["space-connection"], v)
 end
-
-data:extend {{
-    type = "space-connection",
-    name = "maraxsis-tenebris",
-    subgroup = "planet-connections",
-    from = "maraxsis",
-    to = "tenebris",
-    order = "g",
-    length = 126581,
-    asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.aquilo_solar_system_edge)
-}}
