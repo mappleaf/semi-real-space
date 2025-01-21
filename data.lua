@@ -1,1 +1,1 @@
-require "prototypes.space-objects"
+require "prototypes.space_objects"
