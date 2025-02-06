@@ -1,16 +1,20 @@
 {
     "name": "semi-real-space",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "title": "Semi-realistic Space (tweaks collection)",
     "author": "Mappleaf",
     "description": "Combined into one separate mod all the personal fixes, so I don't need to handle all the clutter again and again",
     "homepage": "https://github.com/mappleaf/semi-real-space",
     "dependencies": [
         "PlanetsLib >= 1.1.27",
-        "tenebris >= 0.2.1",
+        "Cerys-Moon-of-Fulgora >= 1.0.1",
+        "corrundum >= 1.0.19",
+        "maraxsis >= 1.27.14",
+        "planet-muluna >= 1.19.1",
+        "Starmap_Nexuz >= 1.0.1",
+        "secretas >= 1.0.11",
         "slp-dyson-sphere-reworked >= 1.0.2",
-        "real-starry-universe >= 1.1.14",
-        "maraxsis >= 1.27.14"
+        "alatar-rocketry >= 0.1.0"
     ],
     "factorio_version": "2.0",
     "space_travel_required": true,

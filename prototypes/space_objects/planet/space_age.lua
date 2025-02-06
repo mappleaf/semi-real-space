@@ -1,1 +1,14 @@
-data.raw["planet"]["aquilo"]["distance"] = 75
+-- PlanetsLib:update({
+--     {
+--         type = "planet",
+--         name = "aquilo",
+--         orbit = {
+--             parent = {
+--                 type = "space-location",
+--                 name = "star"
+--             },
+--             distance = 75,
+-- 			orientation = 0.35
+--         }
+--     }
+-- })
