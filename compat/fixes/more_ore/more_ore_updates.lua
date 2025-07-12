@@ -8,4 +8,8 @@ if mods["more-ore"] then
         end
         idx = idx + 1
     end
+
+    local recipe = data.raw["recipe"]["zinc-plate"]
+    recipe.enabled = true
+
 end
