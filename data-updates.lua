@@ -1,6 +1,6 @@
 require "prototypes.space_object_updates"
 
-require "prototypes.technology_updates"
+require "compat.compat_updates"
 
 
 if settings.startup["global-modifier"].value ~= 1 then
