@@ -1,0 +1,1 @@
+### This shit isn't intended for any sane actual use - be aware that it's just a bunch of random changes between different mods that I use in my modpack and they're used to destroy people's sanity in all possible ways.
