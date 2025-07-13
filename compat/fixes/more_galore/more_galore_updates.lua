@@ -33,4 +33,6 @@ if mods["more-ore"] then
     -- gold
     local gold_plate_recipe = data.raw["recipe"]["gold-plate"]
     gold_plate_recipe.category = "smelting"
+    
+    data.raw["resource"]["gold"]["minable"]["result"] = "gold-ore"
 end
