@@ -1,6 +1,6 @@
 {
     "name": "semi-real-space",
-    "version": "0.4.3",
+    "version": "0.4.4",
     "title": "Semi-realistic Space (tweaks collection)",
     "author": "Mappleaf",
     "description": "Combined into one separate mod all the personal fixes, so I don't need to handle all the clutter again and again",
@@ -20,7 +20,8 @@
         "?more-ore",
         "?more-alloys",
         "?more-galore",
-        "?bztin"
+        "?bztin",
+        "?bztitanium"
     ],
     "factorio_version": "2.0",
     "space_travel_required": true,
