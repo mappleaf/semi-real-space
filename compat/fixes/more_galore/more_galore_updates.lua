@@ -20,5 +20,17 @@ if mods["more-ore"] then
     --     idx = idx + 1
     -- end
     
+
+    -- bronze
+    if mods["bztin"] then
+        local bronze_plate_recipe = data.raw["recipe"]["bronze-plate"]
+        bronze_plate_recipe.category = "smelting"
+    end
+
     data.raw["technology"]["bronze-processing"]["prerequisites"] = {"steam-power"}
+
+
+    -- gold
+    local gold_plate_recipe = data.raw["recipe"]["gold-plate"]
+    gold_plate_recipe.category = "smelting"
 end
