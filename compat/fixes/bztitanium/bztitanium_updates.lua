@@ -25,4 +25,23 @@ if mods["bztitanium"] then
 
     data.raw["resource"]["titanium-ore"]["minable"]["required_fluid"] = nil
     data.raw["resource"]["titanium-ore"]["minable"]["fluid_amount"] = nil
+
+
+    local effects = data.raw["technology"]["titanium-processing"]["effects"]
+    table.insert(effects, {
+        type = "unlock-recipe",
+        recipe = "titanium-gear-wheel"
+    })
+    table.insert(effects, {
+        type = "unlock-recipe",
+        recipe = "titanium-stick"
+    })
+    table.insert(effects, {
+        type = "unlock-recipe",
+        recipe = "titanium-wire"
+    })
+    table.insert(effects, {
+        type = "unlock-recipe",
+        recipe = "titanium-beam"
+    })
 end
