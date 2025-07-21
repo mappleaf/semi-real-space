@@ -13,4 +13,14 @@ if mods["more-ore"] then
 
     local recipe = data.raw["recipe"]["zinc-plate"]
     recipe.enabled = true
+
+    local silicon_tech_effects = data.raw["technology"]["graphite-processing"]["effects"]
+    table.insert(silicon_tech_effects, {
+        type = "unlock-recipe",
+        recipe = "graphite-plate"
+    })
+    table.insert(silicon_tech_effects, {
+        type = "unlock-recipe",
+        recipe = "graphite-stick"
+    })
 end
