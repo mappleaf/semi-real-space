@@ -23,4 +23,8 @@ if mods["more-ore"] then
         type = "unlock-recipe",
         recipe = "graphite-stick"
     })
+    table.insert(silicon_tech_effects, {
+        type = "unlock-recipe",
+        recipe = "graphite-wire"
+    })
 end
