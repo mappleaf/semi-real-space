@@ -35,4 +35,13 @@ if mods["more-ore"] then
     gold_plate_recipe.category = "smelting"
     
     data.raw["resource"]["gold"]["minable"]["result"] = "gold-ore"
+
+    -- tungsten
+    local tungsten_steel_plate_recipe = data.raw["recipe"]["tungsten-steel-plate"]
+    for _, ing in pairs(tungsten_steel_plate_recipe["ingredients"]) do
+        if ing["name"] == "tungsten-plate" then
+            ing["name"] = "tungsten"
+            ing["amount"] = 10
+        end
+    end
 end

@@ -1,6 +1,6 @@
 {
     "name": "semi-real-space",
-    "version": "0.4.8",
+    "version": "0.4.9",
     "title": "Semi-realistic Space (tweaks collection)",
     "author": "Mappleaf",
     "description": "Combined into one separate mod all the personal fixes, so I don't need to handle all the clutter again and again",
@@ -19,6 +19,7 @@
         "Paracelsin >= 1.3.5",
         "?more-ore",
         "?more-alloys",
+        "?more-parts",
         "?more-galore",
         "?bztin",
         "?bztitanium"
