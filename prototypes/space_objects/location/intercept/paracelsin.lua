@@ -28,8 +28,8 @@ PlanetsLib:extend({
 				type = "planet",
 				name = "paracelsin"
 			},
-			distance = 4,
-			orientation = 0.75
+			distance = 2.5,
+			orientation = 0.4
 		},
         asteroid_spawn_influence = 1,
         asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.fulgora_paracelsin, 0.9)
