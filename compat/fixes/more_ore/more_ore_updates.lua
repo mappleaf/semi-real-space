@@ -38,7 +38,7 @@ if mods["more-ore"] then
         category = "smelting",
         allow_productivity = true,
         enabled = false,
-        energy_required = 4.0,
+        energy_required = 12.0,
         ingredients = {
             {type = "item", name = "platinum-ore", amount = 10}
         },
