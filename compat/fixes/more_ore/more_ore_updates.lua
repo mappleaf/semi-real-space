@@ -27,4 +27,30 @@ if mods["more-ore"] then
         type = "unlock-recipe",
         recipe = "graphite-wire"
     })
+
+    -- platinum
+    local platinum_resource = data.raw["resource"]["platinum"]["minable"]
+    platinum_resource.result = "platinum-ore"
+
+    data:extend({{
+        type = "recipe",
+        name = "fixed-platinum-plate",
+        category = "smelting",
+        allow_productivity = true,
+        enabled = false,
+        energy_required = 4.0,
+        ingredients = {
+            {type = "item", name = "platinum-ore", amount = 10}
+        },
+        results = {
+            {type = "item", name = "platinum-plate", amount = 1}
+        },
+        main_product = "platinum-plate"
+    }})
+
+    local platinum_processing_tech_effects = data.raw["technology"]["platinum-processing"]["effects"]
+    table.insert(platinum_processing_tech_effects, {
+        type = "unlock-recipe",
+        recipe = "fixed-platinum-plate"
+    })
 end
