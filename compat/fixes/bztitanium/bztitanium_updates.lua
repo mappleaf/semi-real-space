@@ -45,5 +45,38 @@ if mods["bztitanium"] then
             type = "unlock-recipe",
             recipe = "titanium-beam"
         })
+    elseif mods["exotic-space-industries"] then
+        local effects = data.raw["technology"]["titanium-processing"]["effects"]
+
+        if mods["hot-metals"] then
+            result_item = "hot-titanium-plate"
+        else
+            result_item = "titanium-plate"
+        end
+
+        data:extend({
+            {
+                type = "recipe",
+                name = "titanium-plate-basic",
+                category = "smelting",
+                ingredients = {
+                    {type = "item", name = "titanium-ore", amount = 4}
+                },
+                results = {
+                    {type = "item", name = result_item, amount = 1}
+                },
+                enabled = false,
+                allow_decomposition = false,
+                energy_required = 3.6,
+                allow_productivity = true,
+                main_product = result_item,
+                localised_name = {"item-name." .. result_item},
+            }
+        })
+
+        table.insert(effects, {
+            type = "unlock-recipe",
+            recipe = "titanium-plate-basic"
+        })
     end
 end
