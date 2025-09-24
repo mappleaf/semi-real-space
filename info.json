@@ -1,6 +1,6 @@
 {
     "name": "semi-real-space",
-    "version": "0.5.5",
+    "version": "0.5.6",
     "title": "Semi-realistic Space (tweaks collection)",
     "author": "Mappleaf",
     "description": "Combined into one separate mod all the personal fixes, so I don't need to handle all the clutter again and again",
@@ -26,6 +26,7 @@
         "?more-galore",
         "?bztin",
         "?bztitanium",
+        "?bzzirconium",
         "?zithorian-extra-storage-tanks-port",
         "?exotic-space-industries",
         "?hot-metals"
