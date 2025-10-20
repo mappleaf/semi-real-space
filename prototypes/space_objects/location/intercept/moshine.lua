@@ -10,7 +10,7 @@ PlanetsLib:extend({
 				icon = "__alatar-rocketry__/graphics/icons/transfer-point.png",
 			},
 			{
-				icon = "__Moshine-assets__/graphics/icons/moshine.png",
+				icon = "__Moshine__/graphics/icons/moshine.png",
 				scale = 0.25,
 				shift = {6, 6}
 			}
